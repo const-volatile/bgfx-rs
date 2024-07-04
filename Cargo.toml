@@ -16,7 +16,7 @@ exclude = ["resources/"]
 maintenance = { status = "looking-for-maintainer" }
 
 [dependencies]
-bgfx-sys = "0.15"
+bgfx-sys = {git = "https://github.com/const-volatile/bgfx-sys"}
 bitflags = "1.2"
 cfixed-string = "1.0"
 
